@@ -15,7 +15,9 @@ function App() {
     <>
       <Banner />
       <Formulario aoColaboradorCadastrado={aoNovoColaborarAdicionado} />
-      <Time />
+      <Time nome="Programação" />
+      <Time nome="Data Science" />
+      <Time nome="Front-end" />
     </>
   );
 }
