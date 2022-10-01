@@ -11,8 +11,7 @@
 }
 .colaboradores {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
   margin-top: 32px;
   flex-wrap: wrap;
 }
