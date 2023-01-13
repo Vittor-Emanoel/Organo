@@ -1,8 +1,8 @@
-import Colaborador from "../Colaborador";
-import "./Time.css";
+import Colaborador from '../Colaborador'
+import './Time.css'
 
 const Time = (props) => {
-  const css = { backgroundColor: props.corSecundario };
+  const css = { backgroundColor: props.corSecundario }
 
   return props.colaboradores.length > 0 ? (
     <section className="time" style={css}>
@@ -20,8 +20,8 @@ const Time = (props) => {
       </div>
     </section>
   ) : (
-    ""
-  );
-};
+    ''
+  )
+}
 
-export default Time;
+export default Time
