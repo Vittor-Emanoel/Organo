@@ -1,8 +1,11 @@
-import "./Colaborador.css";
+import './Colaborador.css'
 
-const Colaborador = ({ nome, cargo, imagem, corDeFundo }) => {
+const Colaborador = ({ nome, cargo, imagem, corDeFundo, aoDeletar }) => {
   return (
     <div className="colaborador">
+      <div className="deletar" onClick={aoDeletar}>
+        Deletar
+      </div>
       <div className="cabecalho" style={{ backgroundColor: corDeFundo }}>
         <img src={imagem} alt={imagem} />
       </div>
@@ -11,7 +14,7 @@ const Colaborador = ({ nome, cargo, imagem, corDeFundo }) => {
         <h5>{cargo}</h5>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Colaborador;
+export default Colaborador
